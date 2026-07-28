@@ -1,0 +1,120 @@
+{
+  "active_module": "CANVAS",
+  "active_role": "ADMIN",
+  "house_id": "WOODLANE-HOUSE-A",
+  "house_name": "Woodlane Residential Management - House A",
+  "my25_validation_code": "MY25-PASS-89210-WL",
+  "compliance_status": "MY25_VALIDATED",
+  "residents": [
+    {
+      "resident_id": "RES-101",
+      "name": "Arthur Pendelton",
+      "house_id": "WOODLANE-HOUSE-A",
+      "room_number": "Room 101",
+      "restrictions": ["Low Sodium", "Diabetic Friendly"],
+      "texture_mods": ["PUREED"],
+      "allergens": ["PEANUTS"],
+      "notes": "Requires high visual contrast for plate layout.",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "resident_id": "RES-102",
+      "name": "Beatrice Vance",
+      "house_id": "WOODLANE-HOUSE-A",
+      "room_number": "Room 102",
+      "restrictions": ["Gluten Free", "Dairy Free"],
+      "texture_mods": ["MECHANICAL_SOFT"],
+      "allergens": ["DAIRY", "GLUTEN"],
+      "notes": "Prefers small frequent portions.",
+      "avatar_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "resident_id": "RES-103",
+      "name": "Charles Miller",
+      "house_id": "WOODLANE-HOUSE-A",
+      "room_number": "Room 103",
+      "restrictions": ["Heart Healthy"],
+      "texture_mods": ["NECTAR_THICK"],
+      "allergens": ["SHELLFISH", "TREE_NUTS"],
+      "notes": "Nectar thick liquids mandatory for all meals.",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "resident_id": "RES-104",
+      "name": "Diana Prince",
+      "house_id": "WOODLANE-HOUSE-A",
+      "room_number": "Room 104",
+      "restrictions": ["Vegetarian", "Low Potassium"],
+      "texture_mods": ["REGULAR"],
+      "allergens": [],
+      "notes": "Enjoys fresh herbs and colorful vegetable presentation.",
+      "avatar_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80"
+    }
+  ],
+  "wallet": {
+    "wallet_id": "WAL-WOODLANE-A",
+    "house_id": "WOODLANE-HOUSE-A",
+    "monthly_budget": 1850.00,
+    "current_balance": 1245.50,
+    "spent_this_month": 604.50,
+    "projected_cost_30day": 1520.00,
+    "recent_receipts": [
+      {
+        "receipt_id": "RCP-9921",
+        "store": "ALDI Food Market",
+        "date": "2026-07-25",
+        "total": 142.35,
+        "items_count": 24
+      },
+      {
+        "receipt_id": "RCP-9884",
+        "store": "Kroger Fresh",
+        "date": "2026-07-21",
+        "total": 98.15,
+        "items_count": 14
+      }
+    ]
+  },
+  "inventory": [
+    {
+      "item_id": "INV-101",
+      "name": "Boneless Skinless Chicken Breast",
+      "quantity": 14,
+      "unit": "lbs",
+      "category": "MEAT",
+      "store_source": "ALDI",
+      "unit_price": 3.49,
+      "expiration_date": "2026-08-02",
+      "balance_wallet_ref": "WAL-WOODLANE-A",
+      "reorder_threshold": 5
+    },
+    {
+      "item_id": "INV-102",
+      "name": "Organic Carrots & Sweet Potatoes",
+      "quantity": 18,
+      "unit": "lbs",
+      "category": "PRODUCE",
+      "store_source": "KROGER",
+      "unit_price": 1.89,
+      "expiration_date": "2026-08-08",
+      "balance_wallet_ref": "WAL-WOODLANE-A",
+      "reorder_threshold": 8
+    }
+  ],
+  "qr_logs": [
+    {
+      "log_id": "LOG-7701",
+      "timestamp": "2026-07-27T18:30:00Z",
+      "resident_id": "RES-101",
+      "resident_name": "Arthur Pendelton",
+      "meal_id": "MEAL-001",
+      "meal_title": "Savory Pureed Roast Chicken & Root Vegetables",
+      "meal_type": "DINNER",
+      "staff_id": "STF-402",
+      "staff_name": "Nurse Sarah Jenkins",
+      "texture_verified": true,
+      "notes": "Consumed 90% of portion. Pureed texture was Stage 4 verified.",
+      "qr_code_hash": "QR-RES-101-MEAL-001-20260727"
+    }
+  ]
+}
